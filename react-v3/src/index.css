@@ -1,0 +1,66 @@
+/*Styles form style.css*/
+
+
+:root {
+  --inter: 'Inter', sans-serif;
+  --inria: 'Inria Serif', serif;
+
+  --dark-green: #59A030;
+  --dark-grey: #151B1F;
+  --light-grey: #374148;
+  --light-green: #E8F7DD;
+  --very-light-grey: #EDEBEB;
+  --color-white: #fff;
+
+  --website-title:6rem;
+
+}
+
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+
+}
+
+/*left and right */
+.lr-margin{
+  margin: 0px 10rem;
+}
+.lr-padding{
+  padding: 0px 10rem;
+}
+
+body{
+  background-color: var(--light-green);
+  color: var(--dark-grey);
+}
+
+.heading-2{
+  font-family: var(--inria);
+  font-size: 3.5rem;
+}
+
+.p{
+  font-family: var(--inter);
+}
+
+/*Styles for the contact */
+
+.contact{
+  background-color: #CAE4B8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  padding: 2rem;
+}
+
+.contact ul{
+  display: flex;
+  gap: 3rem;
+}
