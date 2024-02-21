@@ -1,0 +1,57 @@
+
+
+/* <!-- FOOTER*********--> */
+footer{
+  height: 20vh;
+  background-color: var(--dark-grey);
+ 
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+.footer__header{
+  font-family: var(--inria);
+  font-size: 1.8rem;
+  color: white;
+}
+
+.footer__left{
+  display: flex;
+  
+}
+
+/*TOD0: WHy is flex not working how I thought???*/
+.footer__left__list{
+  margin-left: 2rem;
+
+  list-style: none;
+
+  display: flex;
+  
+ 
+
+  font-size: 1.2rem;
+  color: white;
+  font-family: var(--inter);
+
+  /* border: 2px solid red; */
+}
+
+.footer__left__list li{
+  
+
+  display: inline-block;
+  margin: 0 1rem;
+
+}
+
+.footer__right img{
+  height: 20px;
+  margin: 0rem .5rem;
+}

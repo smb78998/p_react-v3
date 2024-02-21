@@ -3,7 +3,7 @@ function Contact(){
 
   return(
    
-    <section className="contact">
+    <section className="contact lr-margin">
        <h2 className='heading-2'>Contact us </h2>
       <ul className="p">
         <li >123-456-7899</li>

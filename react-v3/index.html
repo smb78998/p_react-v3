@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/x-icon" href="assets/money.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- google fonts -->
@@ -13,11 +13,184 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=Inria+Serif:wght@300;400;700&family=Inter:wght@300;400;500;600;700;800;900&family=League+Spartan:wght@100;300;500;600;700;800&family=Outfit:wght@100;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="styles.css">
+  
 
-    <title>Vite + React</title>
+
+    <title>Cash Chronicles</title>
   </head>
   <body>
-    <div id="root"></div>
+    <main>
+
+      
+    <!-- SECTION NAV*********-->
+    <nav class="nav lr-padding">
+      <h4 class="nav__header">Cash Chronicles</h4>
+
+      <ul class="nav__list">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#community">Community</a></li>
+        <li class="nav__list__button"><a href="#sign">Sign Up</a></li>
+        <li class="nav__list__button"><a href="https://open.spotify.com/show/4FYpq3lSeQMAhqNI81O0Cn" target="_blank">Listen in</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- SECTION BLOCK 1*********-->
+    <section class="carasel lr-margin">
+
+      <div class="carasel__left">
+        <img src="assets/carasel1-removebg.png" >
+      </div>
+     
+      <div class="carasel__right">
+        <h2>Cash <br/>Chronicles</h2>
+        <p>Personal Finaces can get confusing, we are here to help!</p>
+
+        <div class="animate-button">
+          <button class="button-animation">Subscribe Today</button>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- SECTION BLOCK 2*********-->
+    <section class="about lr-padding" id="about">
+      <div class="about__right ">
+        <h2 class="heading-2" >About Us</h2>
+        <p class="p">Embark on a journey towards financial empowerment with Cash Chronicles. Dive into insightful discussions, expert interviews, and real-life stories that demystify money matters. Sign up for our mailing list to stay updated on the latest episodes and exclusive content!</p>
+      </div>
+
+      <div class="about__left">
+        <div class="iframe-wrapper">
+          <iframe src="https://www.youtube.com/embed/rK6WLHNYjwM?si=n8ZTAwSrI8ynvqxB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+       
+      </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- SECTION BLOCK 3*********-->
+    <div class="community lr-margin" id="community">
+      <h2 class="heading-2">Our Community</h4>
+
+      <div class="community__feedback"> <!--carousel-->
+
+        <div class="community__feedback__box"><!--carousel__item -->
+          <div class="community__feedback__box__top">
+            <img src="assets/profile1.png">
+            <p>Kenji Writgh</p>
+          </div>
+          <p class="p">"If you're seeking financial guidance without the jargon, this podcast is a gem. The hosts share practical tips without overwhelming you, making it easy to apply their advice to your own financial situation."</p>
+        </div>
+
+        <div class="community__feedback__box">
+          <div class="community__feedback__box__top ">
+            <img src="assets/profile2.png">
+            <p>Alba Smith</p>
+          </div>
+          <p class="p">"I stumbled upon this hidden gem of a podcast, and it's become my go-to for personal finance wisdom. The hosts share practical tips that have genuinely improved my financial outlook. A must-listen!"</p>
+        </div>
+
+        <div class="community__feedback__box">
+          <div class="community__feedback__box__top">
+            <img src="assets/profile3.png">
+            <p>Keily Jones</p>
+          </div>
+          <p class="p">"Finally, a podcast that speaks my language! Cash Chronicles breaks down money matters in a way that's relatable and actionable. I've never been more excited about my financial future."</p>
+        </div>
+
+        <!-- <div class="carousel__nav">
+          <span class="carousel__button"></span>
+          <span class="carousel__button carousel__button--selected" ></span>
+          <span class="carousel__button"></span>
+        </div> -->
+
+      </div>
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+     <!-- SECTION BLOCK 4*********-->  
+     <section class="ready lr-margin" id="sign">
+
+      <div class="ready__left">
+        <h2 class="heading-2">Ready to<br> start Saving?</h4>
+        <p >Sign up for our mailing list today!</p>
+      </div>
+      
+      <div class="ready__right">
+        <div>
+          <p class="p">Name</p>
+          <input type="text" placeholder="Enter your name " />
+          <p class="p">Email</p>
+          <input type="text" placeholder="Enter a valid email address " />
+        </div>
+        
+        <div class="ready_right_button-container">
+          <button class="button-animation">Submit</button>
+        </div>
+        
+   
+      </div>
+
+     </section>
+
+     <!-- contact -->
+     <div id="root"></div>
+
+     <!-- FOOTER*********-->  
+     <footer class="lr-padding footer">
+  
+      <div class="footer__left">
+        <h4 class="footer__header">Cash Chronicles</h4>
+  
+        <ul class="footer__left__list">
+          <li>About Us</li>
+          <li>Community</li>
+          <li >Sign Up</li>
+        </ul>
+      </div>
+      
+      
+      <div class="footer__right">
+        <a href="https://open.spotify.com/show/4FYpq3lSeQMAhqNI81O0Cn"><img src="assets/spotify.png"></a>
+        <a href="https://twitter.com/planetmoney?lang=en"><img src="assets/twitter.png"></a>
+        <a href="https://www.instagram.com/planetmoney/?hl=en"> <img src="assets/instagram.png"></a>
+      </div>
+
+     </footer>
+  
+    
+        
+
+    </main>
+  
+
+
+    <script type="text/javascript" src="scripts.js"></script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

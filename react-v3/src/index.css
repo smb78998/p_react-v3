@@ -51,6 +51,7 @@ body{
 /*Styles for the contact */
 
 .contact{
+  margin: 1rem 10rem;
   background-color: #CAE4B8;
   display: flex;
   flex-direction: column;
@@ -58,9 +59,17 @@ body{
   gap: 2rem;
 
   padding: 2rem;
+  border-radius: 4px;
 }
 
 .contact ul{
   display: flex;
   gap: 3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .contact ul{
+    display: flex;
+    flex-direction: column;
+  }
 }
